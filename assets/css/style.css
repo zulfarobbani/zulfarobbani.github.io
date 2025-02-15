@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Pastikan elemen body mencakup 100% tinggi layar */
+  }
+  
+#navbar{
+    background-color: blueviolet;
+    padding-bottom:5px;
+    transition: background-color 0.3s ease-in-out;
+}
+.navbar {
+    overflow-x: auto; /* Menambahkan scroll horizontal jika diperlukan */
+  } 
+.navbar-scrolled {
+    background-color: #ff5733 !important; /* Warna setelah scroll */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-item{
+    margin-right: 15px; /* Jarak antar menu */
+}
+.navbar-nav .nav-link {
+    padding: 8px 12px; /* Menambah jarak dalam elemen link */
+    border-radius: 5px; /* Opsional: memberikan sudut melengkung */
+    transition: background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #f0f0f0; /* Background saat hover */
+    color: #333; /* Warna teks saat hover */
+}
+.navbar-nav {
+    display: flex;
+    flex-wrap: nowrap; /* Mencegah item melompat ke baris berikutnya */
+}  
+  .main {
+    background-color: aqua !important;
+    background-size: cover; /* Memastikan background mencakup seluruh area */
+    background-position: center; /* Menjaga gambar tetap di tengah */
+    min-height: 100vh; /* Pastikan minimal setinggi layar */
+    padding-top: 10px;
+  }
+.row .about-tsukuyomi{
+    font-size: 30px;
+}
+.row h1{
+    font-size: 50px;
+}
+.social-meida{
+    font-size: 40px;
+}
+.card-row{
+    justify-content: center;
+}
+.col-auto{
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.card-songs{
+    width: 150vh;
+    height: auto;
+}
+.card-img-songs{
+    max-width: 9cm;
+    max-height: 9cm;
+    margin: 10px;
+    
+}
+.last-card{
+    margin-bottom: 10px;
+}
